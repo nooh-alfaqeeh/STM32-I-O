@@ -1,22 +1,21 @@
-#TASKS
+# TASKS
 ## 1st task 
-1st task:
 Blink LED at 2 Hz
 First version using HAL_Delay()
 Second version without HAL_Delay() 
 
-##2nd task:
+## 2nd task:
 Configure a button pin as input with internal pull-up
 Read button state and  toggle LED
 Implement Software debouncing 
 Count valid button presses and then Print counter via UART
 
-##third task:
+## third task:
 Configure EXTI interrupt on button pin (rising or falling edge)
 Toggle LED inside the callback/ISR (keep ISR short)
 Add NVIC priority setting
 
-##4th task:
+## 4th task:
 Toggle LED using direct register access
 Make a documentation explaining:
 Which RCC register enables GPIO clock
